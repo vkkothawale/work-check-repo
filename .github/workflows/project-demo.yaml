@@ -1,6 +1,6 @@
 name: npm demo project
 on:
-  push
+  [push, workflow_dispatch ] 
 jobs:
   test_case:
     runs-on: ubuntu-latest
